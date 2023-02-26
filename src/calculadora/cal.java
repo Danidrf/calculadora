@@ -45,9 +45,10 @@ public class cal {
 	}
 	public double potenciacion() { 
 		double potencia; 
-		potencia=Math.pow(num1,num2); 
+		potencia=Math.pow(num1, num2); 
 		return potencia;
 	}
+	
 	public void visualizar() { 
 		JOptionPane.showMessageDialog(null,"Calculadora Simple"); 
 		
