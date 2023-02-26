@@ -43,15 +43,10 @@ public class cal {
 		resultado=num1/num2; 
 		return resultado; 
 	}
-	public double potenciacion() {
+	public double potenciacion() { 
 		double potencia; 
 		potencia=Math.pow(num1,num2); 
 		return potencia;
-	}
-	public double raiz() { 
-		double raiz; 
-		raiz=Math.pow(num1, 1/num2);
-		return raiz;
 	}
 	public void visualizar() { 
 		JOptionPane.showMessageDialog(null,"Calculadora Simple"); 

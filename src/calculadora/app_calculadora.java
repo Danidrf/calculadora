@@ -31,12 +31,7 @@ import javax.swing.JOptionPane;
 								case "/":
 									resul=c.divi();
 									break;
-								case "^":
-									resul=c.potenciacion(); 
-									break; 
-								case "raiz": 
-									resul=c.raiz(); 
-									break;
+								
 												}
 							JOptionPane.showMessageDialog(null,c.getNum1()+operacion+c.getNum2()+" = "+ resul);
 								respu=JOptionPane.showInputDialog("Quieres realizar otra operación (S/N): ");
