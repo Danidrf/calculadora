@@ -33,6 +33,9 @@ import javax.swing.JOptionPane;
 									break;
 								case "^": 
 									resul=c.potenciacion(); 
+									break; 
+								case "raiz": 
+									resul=c.raiz(); 
 									break;
 												}
 							JOptionPane.showMessageDialog(null,c.getNum1()+operacion+c.getNum2()+" = "+ resul);

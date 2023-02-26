@@ -48,7 +48,11 @@ public class cal {
 		potencia=Math.pow(num1, num2); 
 		return potencia;
 	}
-	
+	public double raiz() { 
+		double raiz; 
+		raiz=Math.pow(num1,1/num2); 
+		return raiz;
+	}
 	public void visualizar() { 
 		JOptionPane.showMessageDialog(null,"Calculadora Simple"); 
 		
